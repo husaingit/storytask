@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story telling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">
+
+            <h4>Form-A-Story</h4>
+        </div>
+        <div class="form-section">
+            <div class="form-heading">
+                <h4>Complete the Form-</h4>
+                <h4>Complete the Story</h4>
+            </div>
+            <div class="form">
+                <form action="story.html">
+                    <label for="Animal">Animal:</label>
+                    <input type="text" id="animal"><br><br>
+
+                    <label for="Another animal">Another animal:</label>
+                    <input type="text" id="anotheranimal"><br><br>
+
+                    <label for="one more animal">One More Animal:</label>
+                    <input type="text" id="onemore"><br><br>
+
+                    <label for="adjective">Adjective(past tense):</label>
+                    <input type="text" id="adjective"><br><br>
+
+                    <label for="verb">Verbs(ends in -ing):</label>
+                    <input type="text" id="verbs"><br><br>
+
+                    <label for="number">Number:</label>
+                    <input type="text" id="num"><br><br>
+
+
+
+                    <label for="yes or no">Yes or No:</label> Yes:
+                    <input type="radio" class="radio" id="yes" name="yesno" value="yes" />No:<input type="radio" class="radio" id="no" name="yesno" value="no"><br>
+                    <label for="Relativespeed">Relative speed(ends in -er):</label>
+                    <input type="text" id="speed"><br><br>
+                    <label for="motivational quote">Motivational quote:</label>
+                    <input type="text" id="quotes"><br><br>
+                    <label for="meaningful message">Meaningful Message:</label><br><br>
+                    <textarea name="meaningful message" cols="30" rows="10" id="msg" placeholder="This is a meaning"></textarea><br>
+                    <input type="submit" value="Form my story" onclick="handleSubmit()">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
